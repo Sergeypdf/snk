@@ -25,4 +25,4 @@ jobs:
         target_branch: gh-pages # Ветка для хранения сгенерированной анимации
         build_dir: dist
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+       GH_PAT: ${{ secrets.GH_PAT }}
